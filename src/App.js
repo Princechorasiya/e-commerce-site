@@ -10,10 +10,12 @@ import {
 
 import HomePage from "./pages/homepage/Hompage.Component";
 import ShopPage from "./pages/shop/Shop.Page";
+import Header from "./components/header/HeaderComponent";
 
 function App() {
 	return (
 		<div className='App'>
+			<Header />
 			<>
 				<Routes>
 					<Route exact path='/' element={<HomePage />} />
