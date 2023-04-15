@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import HomePage from "./pages/homepage/Hompage.Component";
+import ShopPage from "./pages/shop/Shop.Page";
 
 function App() {
 	return (
@@ -16,9 +17,9 @@ function App() {
 			<>
 				<Routes>
 					<Route exact path='/' element={<HomePage />} />
+					<Route path='/shop' element={<ShopPage />} />
 				</Routes>
 			</>
-			-
 		</div>
 	);
 }
